@@ -8,23 +8,23 @@
 ## 📂 Folder Structure (by Pattern)
 
 ```
-dsa-prep/
+dsa-prep
 │
-├── 01_prefix_sum/
-├── 02_two_pointers/
-├── 03_sliding_window/
-├── 04_fast_slow_pointers/
-├── 05_linked_list_reversal/
-├── 06_monotonic_stack/
-├── 07_top_k_heap/
-├── 08_intervals/
-├── 09_binary_search_variants/
-├── 10_binary_tree_traversals/
-├── 11_dfs/
-├── 12_bfs/
-├── 13_matrix/
-├── 14_backtracking/
-├── 15_dynamic_programming/
+├── 01_prefix_sum
+├── 02_two_pointers
+├── 03_sliding_window
+├── 04_fast_slow_pointers
+├── 05_linked_list_reversal
+├── 06_monotonic_stack
+├── 07_top_k_heap
+├── 08_intervals
+├── 09_binary_search_variants
+├── 10_binary_tree_traversals
+├── 11_dfs
+├── 12_bfs
+├── 13_matrix
+├── 14_backtracking
+├── 15_dynamic_programming
 └── README.md
 ```
 
