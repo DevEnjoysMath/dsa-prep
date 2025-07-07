@@ -1,163 +1,145 @@
+# DSA for Interviews: A Practical Guide
 
-Hi there! 👋 This repository is a collection of **DSA patterns and problems** I personally used to prepare for software engineering internships like:
+Hi there! 👋 This repository is a curated collection of Data Structures & Algorithms patterns and problems, designed to prepare you for technical interviews for roles like **Google STEP, Microsoft SWE Intern, Amazon SDE Intern, Meta University (outside Ireland)**, and other top-tier software engineering internships.
 
-- Google STEP
-- Microsoft Explore
-- Meta University
-- Amazon SDE Intern
-- And more!
+It's not just a list of solutions. It's a structured learning path focused on **recognizing patterns**, understanding **trade-offs**, and moving from a **brute-force idea to an optimal solution**.
 
-It’s designed to be **simple**, **practical**, and **organized by topic**, so you can focus on mastering the right patterns without getting overwhelmed.
+All solutions in this repository are written in **Java**.
+
+---
+
+## 💡 Core Philosophy: The Journey to Optimal
+
+The goal of a technical interview isn't just to get the right answer, but to demonstrate *how you think*. That's why every problem in this repo follows a specific structure:
+
+1.  **Brute Force:** The simple, straightforward first attempt.
+2.  **Analysis:** Identifying *why* the brute-force solution is inefficient.
+3.  **Optimal Solution:** Applying the correct data structure or algorithmic pattern to solve the problem efficiently.
+
+By studying this way, you learn to deconstruct problems and build effective solutions under pressure.
 
 ---
 
 ## 🧭 How to Use This Repo
 
-- 📂 Go through the folders by topic (e.g., Sliding Window, BFS, etc.)
-- ✅ Use the checklists to track your progress.
-- 💡 Most problems are from **LeetCode** and are chosen for **interview relevance**.
-- ✍️ Feel free to fork, modify, or contribute!
+- **For Revision:** Use the checklists below to track your progress and quickly review key patterns before an interview.
+- **For Deep Learning:** Dive into each problem's dedicated folder. Every folder contains:
+    - `README.md` explaining the thought process from brute-force to optimal.
+    - `BruteForce.java` containing the initial, straightforward solution.
+    - `Optimal.java` containing the final, efficient interview-ready solution.
 
 ---
 
+## 📂 DSA Patterns & Problems
 
-## 📂 Folder Structure (by Pattern)
+This collection is organized by common, high-impact patterns. Mastering these will give you the tools to solve a wide variety of interview questions.
 
-```
-dsa-prep
-│
-├── 01_prefix_sum
-├── 02_two_pointers
-├── 03_sliding_window
-├── 04_fast_slow_pointers
-├── 05_linked_list_reversal
-├── 06_monotonic_stack
-├── 07_top_k_heap
-├── 08_intervals
-├── 09_binary_search_variants
-├── 10_binary_tree_traversals
-├── 11_dfs
-├── 12_bfs
-├── 13_matrix
-├── 14_backtracking
-├── 15_dynamic_programming
-└── README.md
-```
+### ✅ Problem Checklist
 
----
+#### 🔢 **01. Prefix Sum**
+- [ ] LC 303 – Range Sum Query: Immutable
+- [ ] LC 525 – Contiguous Array
+- [ ] LC 560 – Subarray Sum Equals K
 
+#### 👯‍♂️ **02. Two Pointers**
+- [ ] LC 167 – Two Sum II
+- [ ] LC 15 – 3Sum
+- [ ] LC 11 – Container With Most Water
 
-Each folder includes practice problems with links and short explanations (WIP for some).
+#### 🪟 **03. Sliding Window**
+- [ ] LC 643 – Max Average Subarray I
+- [ ] LC 3 – Longest Substring Without Repeating Characters
+- [ ] LC 76 – Minimum Window Substring
 
----
+#### 🐢 **04. Fast & Slow Pointers**
+- [ ] LC 141 – Linked List Cycle
+- [ ] LC 202 – Happy Number
+- [ ] LC 287 – Find the Duplicate Number
 
-## ✅ Problem Checklist
+#### 🔁 **05. Linked List (In-Place Reversal)**
+- [ ] LC 206 – Reverse Linked List
+- [ ] LC 92 – Reverse Linked List II
+- [ ] LC 24 – Swap Nodes in Pairs
 
-> Here's a sample. Full list is in each folder.
+#### 📉 **06. Monotonic Stack**
+- [ ] LC 496 – Next Greater Element I
+- [ ] LC 739 – Daily Temperatures
+- [ ] LC 84 – Largest Rectangle in Histogram
 
-### 🔢 01. Prefix Sum
-- [x] LC 303 – Range Sum Query: Immutable  
-- [x] LC 525 – Contiguous Array  
-- [x] LC 560 – Subarray Sum Equals K  
+#### 🥇 **07. Top 'K' Elements (Heaps)**
+- [ ] LC 215 – Kth Largest Element in an Array
+- [ ] LC 347 – Top K Frequent Elements
+- [ ] LC 373 – Find K Pairs with Smallest Sums
 
-### 👯‍♂️ 02. Two Pointers  
-- [x] LC 167 – Two Sum II  
-- [x] LC 15 – 3Sum  
-- [x] LC 11 – Container With Most Water  
+#### 📆 **08. Intervals**
+- [ ] LC 56 – Merge Intervals
+- [ ] LC 57 – Insert Interval
+- [ ] LC 435 – Non-overlapping Intervals
 
-### 🪟 03. Sliding Window  
-- [x] LC 643 – Max Average Subarray I  
-- [x] LC 3 – Longest Substring Without Repeating Characters  
-- [x] LC 76 – Minimum Window Substring  
+#### 🔍 **09. Modified Binary Search**
+- [ ] LC 33 – Search in Rotated Sorted Array
+- [ ] LC 153 – Find Minimum in Rotated Sorted Array
+- [ ] LC 240 – Search a 2D Matrix II
 
-### 🐢 04. Fast and Slow Pointers
-- [x] LC 141 – Linked List Cycle  
-- [x] LC 202 – Happy Number  
-- [x] LC 287 – Find the Duplicate Number  
+#### 🌲 **10. Binary Tree Traversal**
+- [ ] LC 257 – Binary Tree Paths
+- [ ] LC 230 – Kth Smallest Element in a BST
+- [ ] LC 124 – Binary Tree Maximum Path Sum
+- [ ] LC 107 – Level Order Traversal II
 
-### 🔁 05. Linked List In-Place Reversal  
-- [x] LC 206 – Reverse Linked List  
-- [x] LC 92 – Reverse Linked List II  
-- [x] LC 24 – Swap Nodes in Pairs  
+#### 🧠 **11. Depth First Search (DFS)**
+- [ ] LC 133 – Clone Graph
+- [ ] LC 113 – Path Sum II
+- [ ] LC 210 – Course Schedule II
 
-### 📉 06. Monotonic Stack  
-- [x] LC 496 – Next Greater Element I  
-- [x] LC 739 – Daily Temperatures  
-- [x] LC 84 – Largest Rectangle in Histogram  
+#### 🌊 **12. Breadth First Search (BFS)**
+- [ ] LC 102 – Binary Tree Level Order Traversal
+- [ ] LC 994 – Rotting Oranges
+- [ ] LC 127 – Word Ladder
 
-### 🥇 07. Top K Elements (Heap)  
-- [x] LC 215 – Kth Largest Element in an Array  
-- [x] LC 347 – Top K Frequent Elements  
-- [x] LC 373 – Find K Pairs with Smallest Sums  
+#### 🧮 **13. Matrix Traversal**
+- [ ] LC 733 – Flood Fill
+- [ ] LC 200 – Number of Islands
+- [ ] LC 130 – Surrounded Regions
 
-### 📆 08. Overlapping Intervals  
-- [x] LC 56 – Merge Intervals  
-- [x] LC 57 – Insert Interval  
-- [x] LC 435 – Non-overlapping Intervals  
+#### 🧩 **14. Backtracking**
+- [ ] LC 46 – Permutations
+- [ ] LC 78 – Subsets
+- [ ] LC 51 – N-Queens
 
-### 🔍 09. Modified Binary Search  
-- [x] LC 33 – Search in Rotated Sorted Array  
-- [x] LC 153 – Find Minimum in Rotated Sorted Array  
-- [x] LC 240 – Search a 2D Matrix II  
-
-### 🌲 10. Binary Tree Traversal  
-- [x] LC 257 – Binary Tree Paths  
-- [x] LC 230 – Kth Smallest Element in a BST  
-- [x] LC 124 – Binary Tree Maximum Path Sum  
-- [x] LC 107 – Level Order Traversal II  
-
-### 🧠 11. Depth First Search (DFS)  
-- [x] LC 133 – Clone Graph  
-- [x] LC 113 – Path Sum II  
-- [x] LC 210 – Course Schedule II  
-
-### 🌊 12. Breadth First Search (BFS)  
-- [x] LC 102 – Binary Tree Level Order Traversal  
-- [x] LC 994 – Rotting Oranges  
-- [x] LC 127 – Word Ladder  
-
-### 🧮 13. Matrix Traversal  
-- [x] LC 733 – Flood Fill  
-- [x] LC 200 – Number of Islands  
-- [x] LC 130 – Surrounded Regions  
-
-### 🧩 14. Backtracking  
-- [x] LC 46 – Permutations  
-- [x] LC 78 – Subsets  
-- [x] LC 51 – N-Queens  
-
-### 💸 15. Dynamic Programming  
-- [x] LC 70 – Climbing Stairs  
-- [x] LC 322 – Coin Change  
-- [x] LC 300 – Longest Increasing Subsequence  
-- [x] LC 416 – Partition Equal Subset Sum  
-- [x] LC 312 – Burst Balloons  
-- [x] LC 1143 – Longest Common Subsequence  
+#### 💸 **15. Dynamic Programming**
+- [ ] LC 70 – Climbing Stairs
+- [ ] LC 322 – Coin Change
+- [ ] LC 300 – Longest Increasing Subsequence
+- [ ] LC 416 – Partition Equal Subset Sum
+- [ ] LC 1143 – Longest Common Subsequence
+- [ ] LC 312 – Burst Balloons
 
 ---
 
 ## 🌟 Bonus Problems
 
-These are mix-type problems or just slightly harder, but they strengthen your understanding:
+These problems often combine multiple patterns and are great for strengthening your problem-solving toolkit.
 
-- LC 23 – Merge K Sorted Lists *(Heap + Linked List)*
-- LC 138 – Copy List with Random Pointer *(HashMap + Linked List)*
-- LC 329 – Longest Increasing Path in Matrix *(DFS + Memoization)*
-- LC 212 – Word Search II *(Trie + Backtracking)*
-
----
-
-## 🙌 Contributions Welcome
-
-Found a bug, want to add more problems, or have suggestions?  
-Open an issue or a pull request — happy to improve this together!
+- [ ] LC 23 – Merge K Sorted Lists *(Heap + Linked List)*
+- [ ] LC 138 – Copy List with Random Pointer *(HashMap + Linked List)*
+- [ ] LC 329 – Longest Increasing Path in Matrix *(DFS + Memoization)*
+- [ ] LC 212 – Word Search II *(Trie + Backtracking)*
 
 ---
 
-## ⭐ If You Found This Helpful...
+## 🚀 Beyond Code: Complexity Analysis
 
-**Please give this repo a star ⭐** — it helps others find it and motivates me to keep building and updating this resource.
+Remember, the solution is only half the battle. For every problem, make sure you can confidently state and defend the **Time and Space Complexity** of your approach. The `README.md` for each problem will include a complexity analysis table.
 
 ---
 
-> “Consistency beats cramming. One pattern a day keeps rejection away.” 🚀
+## 🙌 Contribute & Connect
+
+This is a living repository. If you find a bug, have a suggestion, or want to add a new pattern/problem, please **open an issue or submit a pull request**. Let's improve this resource together!
+
+### ⭐ If You Found This Helpful...
+
+Please give this repo a star! It not only motivates me to keep it updated but also helps other students discover it.
+
+> "Consistency beats cramming. One pattern a day keeps rejection away."
